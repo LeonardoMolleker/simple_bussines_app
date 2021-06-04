@@ -1,5 +1,5 @@
-name: simple_card_bussines_app
-description: Simple card bussines app.
+name: simple_bussines_card_app
+description: Simple bussiness card app.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -21,6 +21,7 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  google_fonts: ^2.1.0
   flutter:
     sdk: flutter
 
@@ -45,7 +46,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - lib/src/assets/
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

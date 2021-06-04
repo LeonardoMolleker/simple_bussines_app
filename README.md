@@ -1,6 +1,6 @@
-# simple_card_bussines_app
+# simple_bussines_card_app
 
-Simple card bussines app.
+Simple bussiness card app.
 
 ## Getting Started
 
