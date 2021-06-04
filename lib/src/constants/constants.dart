@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 abstract class Constants {
   static const double containerPaddingRightLeft = 10.0;
   static const double containerPaddingTop = 25.0;
