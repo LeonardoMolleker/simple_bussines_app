@@ -14,7 +14,6 @@ abstract class Constants {
   static const double principalContainerHeight = 700.0;
   static const double principalContainerWidth = 350.0;
   static const double borderRadius = 10.0;
-  static const Color cardTextColor = Colors.yellowAccent;
   static const double dividerThickness = 2.0;
   static const String subtitleCardMail = "E-mail";
   static const String subtitleCardPhone = "Cell phone";

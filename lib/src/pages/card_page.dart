@@ -75,7 +75,7 @@ class CardPage extends StatelessWidget {
                         name,
                         style: TextStyle(
                           fontSize: Constants.fontSize,
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                         ),
                       ),
                     ),
@@ -88,7 +88,7 @@ class CardPage extends StatelessWidget {
                       child: Text(
                         position,
                         style: TextStyle(
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                           fontSize: Constants.fontSize,
                           fontStyle: FontStyle.italic,
                         ),
@@ -110,20 +110,20 @@ class CardPage extends StatelessWidget {
                     child: ListTile(
                       leading: Icon(
                         Icons.phone_android,
-                        color: Constants.cardTextColor,
+                        color: Colors.yellowAccent,
                       ),
                       title: Text(
                         number,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                         ),
                       ),
                       subtitle: Text(
                         Constants.subtitleCardPhone,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                         ),
                       ),
                     ),
@@ -134,20 +134,20 @@ class CardPage extends StatelessWidget {
                     child: ListTile(
                       leading: Icon(
                         Icons.mail_outline_outlined,
-                        color: Constants.cardTextColor,
+                        color: Colors.yellowAccent,
                       ),
                       title: Text(
                         mail,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                         ),
                       ),
                       subtitle: Text(
                         Constants.subtitleCardMail,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
-                          color: Constants.cardTextColor,
+                          color: Colors.yellowAccent,
                         ),
                       ),
                     ),
