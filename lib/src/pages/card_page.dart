@@ -20,7 +20,7 @@ class CardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurpleAccent,
+      backgroundColor: Colors.deepPurple,
       body: Padding(
         padding: const EdgeInsets.symmetric(
           vertical: Constants.safeAreaPaddingVertical,
