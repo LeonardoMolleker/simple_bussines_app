@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 abstract class Constants {
   static const double containerPaddingRightLeft = 10.0;
   static const double containerPaddingTop = 25.0;
-  static const double safeAreaPaddingVertical = 75.0;
+  static const double safeAreaPaddingVertical = 73.0;
   static const double safeAreaPaddingHorizontal = 20.0;
   static const double borderWidth = 2.0;
   static const double circleAvatarRadius = 120.0;

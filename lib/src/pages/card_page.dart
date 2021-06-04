@@ -10,11 +10,11 @@ class CardPage extends StatelessWidget {
   final String mail;
 
   CardPage({
-    this.name,
-    this.position,
-    this.srcImage,
-    this.number,
-    this.mail,
+    this.name = "Leonardo Molleker",
+    this.position = "College Trainee",
+    this.srcImage = "lib/src/assets/profile.jpg",
+    this.number = "+54 9 249 4208051",
+    this.mail = "leonardo.molleker@globant.com",
   });
 
   @override
@@ -62,7 +62,7 @@ class CardPage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: Constants.circleAvatarRadius,
                       backgroundImage: AssetImage(
-                        this.srcImage,
+                        srcImage,
                       ),
                     ),
                   ),
@@ -72,7 +72,7 @@ class CardPage extends StatelessWidget {
                     ),
                     child: Container(
                       child: Text(
-                        this.name,
+                        name,
                         style: TextStyle(
                           fontSize: Constants.fontSize,
                           color: Constants.cardTextColor,
@@ -80,16 +80,18 @@ class CardPage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(
-                    padding: EdgeInsets.only(
+                  Padding(
+                    padding: const EdgeInsets.only(
                       top: Constants.paddingPosition,
                     ),
-                    child: Text(
-                      this.position,
-                      style: TextStyle(
-                        color: Constants.cardTextColor,
-                        fontSize: Constants.fontSize,
-                        fontStyle: FontStyle.italic,
+                    child: Container(
+                      child: Text(
+                        position,
+                        style: TextStyle(
+                          color: Constants.cardTextColor,
+                          fontSize: Constants.fontSize,
+                          fontStyle: FontStyle.italic,
+                        ),
                       ),
                     ),
                   ),
@@ -97,11 +99,9 @@ class CardPage extends StatelessWidget {
                     padding: const EdgeInsets.only(
                       top: Constants.containerPaddingTop,
                     ),
-                    child: Container(
-                      child: Divider(
-                        color: Colors.deepPurpleAccent,
-                        thickness: Constants.dividerThickness,
-                      ),
+                    child: Divider(
+                      color: Colors.deepPurpleAccent,
+                      thickness: Constants.dividerThickness,
                     ),
                   ),
                   Card(
@@ -113,7 +113,7 @@ class CardPage extends StatelessWidget {
                         color: Constants.cardTextColor,
                       ),
                       title: Text(
-                        this.number,
+                        number,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
                           color: Constants.cardTextColor,
@@ -137,7 +137,7 @@ class CardPage extends StatelessWidget {
                         color: Constants.cardTextColor,
                       ),
                       title: Text(
-                        this.mail,
+                        mail,
                         style: TextStyle(
                           fontSize: Constants.cardFontSize,
                           color: Constants.cardTextColor,

@@ -12,13 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CardPage(
-        name: "Leonardo Molleker",
-        position: "College Trainee",
-        srcImage: "lib/src/assets/profile.jpg",
-        number: "+54 9 249 4208051",
-        mail: "leonardo.molleker@globant.com",
-      ),
+      home: CardPage(),
     );
   }
 }
